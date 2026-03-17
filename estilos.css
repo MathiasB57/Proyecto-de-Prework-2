@@ -1,0 +1,17 @@
+.titulo{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+}
+.contenido{
+    display: flex;
+}
+.textofoto{
+    display: flex;
+    float: left;
+}
+.fecha{
+    display: flex;
+    float: right;
+}
