@@ -1,17 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 232, 232);
+}
+header{
+     background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 .titulo{
-    display: flex;
+    justify-content: center;;
 }
 .wrapper{
     display: flex;
+    justify-content: center;
 }
 .contenido{
     display: flex;
+    margin: 0 auto;
+    border: 1px solid ;
+    border-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+.headercontent{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 .textofoto{
-    display: flex;
-    float: left;
+    gap: 10px;
 }
 .fecha{
-    display: flex;
-    float: right;
+    gap: 10px;
+    color: rgb(172, 172, 172);
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 80%;
+    color: rgb(85, 85, 85);
+    padding: 10px;
 }
